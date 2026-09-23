@@ -11,6 +11,8 @@ Note: We are in the same session where all temporary tables are created. Therefo
 
 
 -- Q1. How many pizzas were ordered?
+ SELECT COUNT(*) AS total_pizza_order
+FROM #customer_orders_temp;
 
 
 
